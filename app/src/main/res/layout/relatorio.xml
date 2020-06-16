@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#00FFEEFF"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimaryDark"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+    </android.support.design.widget.AppBarLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Spinner
+            android:id="@+id/mes"
+            android:layout_width="121dp"
+            android:layout_height="55dp"
+            android:layout_weight="1" />
+
+        <Spinner
+            android:id="@+id/ano"
+            android:layout_width="127dp"
+            android:layout_height="55dp"
+            android:layout_weight="1" />
+
+        <Button
+            android:id="@+id/gerarRelatorio"
+            android:layout_width="152dp"
+            android:layout_height="wrap_content"
+            android:onClick="gerarGrafico"
+            android:text="Visualizar" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/relatorio"
+        android:layout_width="match_parent"
+        android:layout_height="412dp"
+        android:layout_marginLeft="10dp"
+        android:gravity="center"
+        android:scrollbars="vertical"
+        android:singleLine="false" />
+
+    <Button
+        android:id="@+id/gerarPDF"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Gerar PDF"
+        />
+
+</LinearLayout>

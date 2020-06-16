@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">TicketBox</string>
+
+    <string name="action_configuracoes_horarios">Configurar Horários</string>
+    <string name="action_relatorio">Relatório</string>
+    <string name="action_manual">Manual</string>
+    <string name="action_sobre">Sobre</string>
+    <string name="action_sair">Sair</string>
+
+    <string name="title_activity_configuracoes_horarios">Configurando Horários</string>
+    <string-array name="tipoRegistroComprovante">
+        <item>Entrada</item>
+        <item>Saída</item>
+    </string-array>
+
+    <string name="take_photo">Obter Foto</string>
+    <string name="permission_text">Este aplicativo necessita de acesso à sua câmera.</string>
+    <string name="btn_ok">ok</string>
+    <string name="permission_camera_explanation">testecamera</string>
+    <string name="without_permission_camera_explanation">Este aplicativo necessita de acesso à sua câmera</string>
+
+</resources>

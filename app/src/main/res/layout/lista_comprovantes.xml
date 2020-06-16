@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:id="@+id/ListaComprovantes"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="#00FFEEFF"
+    android:weightSum="1">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnDiaAnterior"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Dia anterior"
+            android:textAlignment="center"
+            android:onClick="alterarBtnDia"/>
+
+        <Button
+            android:id="@+id/btnDia"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textAlignment="center"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <Button
+            android:id="@+id/btnProximoDia"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Próximo dia"
+            android:textAlignment="center"
+            android:onClick="alterarBtnDia"/>
+
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/list"
+        style="@style/Widget.AppCompat.ListView.Menu"
+        android:layout_width="wrap_content"
+        android:layout_height="371dp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/textDia"
+        android:layout_gravity="center_vertical"
+        android:divider="#ECECEC"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <Button
+        android:id="@+id/btnAdicionarHorario"
+        android:text="Adicionar Horário"
+        android:layout_width="match_parent"
+        android:layout_height="46dp"
+        android:onClick="abrirConfiguracoesHorarios"/>
+
+</LinearLayout>

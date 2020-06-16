@@ -1,0 +1,66 @@
+[
+    {
+        "merged": "/home/jfbransou/AndroidStudioProjects/TicketBox/app/build/intermediates/res/merged/debug/menu_menu_main.xml.flat",
+        "source": "/home/jfbransou/AndroidStudioProjects/TicketBox/app/src/main/res/menu/menu_main.xml"
+    },
+    {
+        "merged": "/home/jfbransou/AndroidStudioProjects/TicketBox/app/build/intermediates/res/merged/debug/layout_visualizar_comprovante.xml.flat",
+        "source": "/home/jfbransou/AndroidStudioProjects/TicketBox/app/src/main/res/layout/visualizar_comprovante.xml"
+    },
+    {
+        "merged": "/home/jfbransou/AndroidStudioProjects/TicketBox/app/build/intermediates/res/merged/debug/mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "/home/jfbransou/AndroidStudioProjects/TicketBox/app/src/main/res/mipmap-xhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/home/jfbransou/AndroidStudioProjects/TicketBox/app/build/intermediates/res/merged/debug/layout_itens_lista_comprovantes.xml.flat",
+        "source": "/home/jfbransou/AndroidStudioProjects/TicketBox/app/src/main/res/layout/itens_lista_comprovantes.xml"
+    },
+    {
+        "merged": "/home/jfbransou/AndroidStudioProjects/TicketBox/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "/home/jfbransou/AndroidStudioProjects/TicketBox/app/src/main/res/mipmap-xxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/home/jfbransou/AndroidStudioProjects/TicketBox/app/build/intermediates/res/merged/debug/layout_content_main.xml.flat",
+        "source": "/home/jfbransou/AndroidStudioProjects/TicketBox/app/src/main/res/layout/content_main.xml"
+    },
+    {
+        "merged": "/home/jfbransou/AndroidStudioProjects/TicketBox/app/build/intermediates/res/merged/debug/layout_activity_main.xml.flat",
+        "source": "/home/jfbransou/AndroidStudioProjects/TicketBox/app/src/main/res/layout/activity_main.xml"
+    },
+    {
+        "merged": "/home/jfbransou/AndroidStudioProjects/TicketBox/app/build/intermediates/res/merged/debug/xml_filepaths.xml.flat",
+        "source": "/home/jfbransou/AndroidStudioProjects/TicketBox/app/src/main/res/xml/filepaths.xml"
+    },
+    {
+        "merged": "/home/jfbransou/AndroidStudioProjects/TicketBox/app/build/intermediates/res/merged/debug/mipmap-hdpi_ic_launcher.png.flat",
+        "source": "/home/jfbransou/AndroidStudioProjects/TicketBox/app/src/main/res/mipmap-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/home/jfbransou/AndroidStudioProjects/TicketBox/app/build/intermediates/res/merged/debug/drawable_caixavazia.png.flat",
+        "source": "/home/jfbransou/AndroidStudioProjects/TicketBox/app/src/main/res/drawable/caixavazia.png"
+    },
+    {
+        "merged": "/home/jfbransou/AndroidStudioProjects/TicketBox/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "/home/jfbransou/AndroidStudioProjects/TicketBox/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/home/jfbransou/AndroidStudioProjects/TicketBox/app/build/intermediates/res/merged/debug/layout_relatorio.xml.flat",
+        "source": "/home/jfbransou/AndroidStudioProjects/TicketBox/app/src/main/res/layout/relatorio.xml"
+    },
+    {
+        "merged": "/home/jfbransou/AndroidStudioProjects/TicketBox/app/build/intermediates/res/merged/debug/layout_lista_comprovantes.xml.flat",
+        "source": "/home/jfbransou/AndroidStudioProjects/TicketBox/app/src/main/res/layout/lista_comprovantes.xml"
+    },
+    {
+        "merged": "/home/jfbransou/AndroidStudioProjects/TicketBox/app/build/intermediates/res/merged/debug/mipmap-mdpi_ic_launcher.png.flat",
+        "source": "/home/jfbransou/AndroidStudioProjects/TicketBox/app/src/main/res/mipmap-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/home/jfbransou/AndroidStudioProjects/TicketBox/app/build/intermediates/res/merged/debug/drawable_ticketbox.png.flat",
+        "source": "/home/jfbransou/AndroidStudioProjects/TicketBox/app/src/main/res/drawable/ticketbox.png"
+    },
+    {
+        "merged": "/home/jfbransou/AndroidStudioProjects/TicketBox/app/build/intermediates/res/merged/debug/layout_configuracoes_horarios.xml.flat",
+        "source": "/home/jfbransou/AndroidStudioProjects/TicketBox/app/src/main/res/layout/configuracoes_horarios.xml"
+    }
+]

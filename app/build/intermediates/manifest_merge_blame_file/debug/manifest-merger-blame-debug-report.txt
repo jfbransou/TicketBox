@@ -1,0 +1,109 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.tcc.admin.ticketbox"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="17"
+8-->/home/jfbransou/AndroidStudioProjects/TicketBox/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="24" />
+9-->/home/jfbransou/AndroidStudioProjects/TicketBox/app/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.CAMERA" />
+11-->/home/jfbransou/AndroidStudioProjects/TicketBox/app/src/main/AndroidManifest.xml:6:5-64
+11-->/home/jfbransou/AndroidStudioProjects/TicketBox/app/src/main/AndroidManifest.xml:6:22-62
+12    <uses-permission android:name="android.permission.STORAGE" />
+12-->/home/jfbransou/AndroidStudioProjects/TicketBox/app/src/main/AndroidManifest.xml:7:5-65
+12-->/home/jfbransou/AndroidStudioProjects/TicketBox/app/src/main/AndroidManifest.xml:7:22-63
+13    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+13-->/home/jfbransou/AndroidStudioProjects/TicketBox/app/src/main/AndroidManifest.xml:8:5-81
+13-->/home/jfbransou/AndroidStudioProjects/TicketBox/app/src/main/AndroidManifest.xml:8:22-78
+14    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+14-->/home/jfbransou/AndroidStudioProjects/TicketBox/app/src/main/AndroidManifest.xml:9:5-80
+14-->/home/jfbransou/AndroidStudioProjects/TicketBox/app/src/main/AndroidManifest.xml:9:22-77
+15
+16    <uses-feature android:name="android.hardware.camera" />
+16-->/home/jfbransou/AndroidStudioProjects/TicketBox/app/src/main/AndroidManifest.xml:10:5-60
+16-->/home/jfbransou/AndroidStudioProjects/TicketBox/app/src/main/AndroidManifest.xml:10:19-57
+17
+18    <application
+18-->/home/jfbransou/AndroidStudioProjects/TicketBox/app/src/main/AndroidManifest.xml:12:5-53:19
+19        android:allowBackup="true"
+19-->/home/jfbransou/AndroidStudioProjects/TicketBox/app/src/main/AndroidManifest.xml:14:9-35
+20        android:debuggable="true"
+20-->/home/jfbransou/AndroidStudioProjects/TicketBox/app/src/main/AndroidManifest.xml:13:9-35
+21        android:icon="@mipmap/ic_launcher"
+21-->/home/jfbransou/AndroidStudioProjects/TicketBox/app/src/main/AndroidManifest.xml:15:9-43
+22        android:label="@string/app_name"
+22-->/home/jfbransou/AndroidStudioProjects/TicketBox/app/src/main/AndroidManifest.xml:16:9-41
+23        android:supportsRtl="true"
+23-->/home/jfbransou/AndroidStudioProjects/TicketBox/app/src/main/AndroidManifest.xml:17:9-35
+24        android:theme="@style/AppTheme" >
+24-->/home/jfbransou/AndroidStudioProjects/TicketBox/app/src/main/AndroidManifest.xml:18:9-40
+25        <activity
+25-->/home/jfbransou/AndroidStudioProjects/TicketBox/app/src/main/AndroidManifest.xml:20:9-29:20
+26            android:name="com.tcc.admin.ticketbox.MainActivity"
+26-->/home/jfbransou/AndroidStudioProjects/TicketBox/app/src/main/AndroidManifest.xml:21:13-41
+27            android:label="@string/app_name"
+27-->/home/jfbransou/AndroidStudioProjects/TicketBox/app/src/main/AndroidManifest.xml:22:13-45
+28            android:theme="@style/AppTheme.NoActionBar" >
+28-->/home/jfbransou/AndroidStudioProjects/TicketBox/app/src/main/AndroidManifest.xml:23:13-56
+29            <intent-filter>
+29-->/home/jfbransou/AndroidStudioProjects/TicketBox/app/src/main/AndroidManifest.xml:24:13-28:29
+30                <action android:name="android.intent.action.MAIN" />
+30-->/home/jfbransou/AndroidStudioProjects/TicketBox/app/src/main/AndroidManifest.xml:25:17-69
+30-->/home/jfbransou/AndroidStudioProjects/TicketBox/app/src/main/AndroidManifest.xml:25:25-66
+31
+32                <category android:name="android.intent.category.LAUNCHER" />
+32-->/home/jfbransou/AndroidStudioProjects/TicketBox/app/src/main/AndroidManifest.xml:27:17-77
+32-->/home/jfbransou/AndroidStudioProjects/TicketBox/app/src/main/AndroidManifest.xml:27:27-74
+33            </intent-filter>
+34        </activity>
+35        <activity android:name="com.tcc.admin.ticketbox.ActivityListaComprovantes" />
+35-->/home/jfbransou/AndroidStudioProjects/TicketBox/app/src/main/AndroidManifest.xml:30:9-63
+35-->/home/jfbransou/AndroidStudioProjects/TicketBox/app/src/main/AndroidManifest.xml:30:19-60
+36        <activity android:name="com.tcc.admin.ticketbox.ActivityVisualizarImagem" />
+36-->/home/jfbransou/AndroidStudioProjects/TicketBox/app/src/main/AndroidManifest.xml:31:9-62
+36-->/home/jfbransou/AndroidStudioProjects/TicketBox/app/src/main/AndroidManifest.xml:31:19-59
+37        <activity android:name="com.tcc.admin.ticketbox.ActivityRelatorio" />
+37-->/home/jfbransou/AndroidStudioProjects/TicketBox/app/src/main/AndroidManifest.xml:32:9-55
+37-->/home/jfbransou/AndroidStudioProjects/TicketBox/app/src/main/AndroidManifest.xml:32:19-52
+38        <activity
+38-->/home/jfbransou/AndroidStudioProjects/TicketBox/app/src/main/AndroidManifest.xml:34:9-42:20
+39            android:name="com.tcc.admin.ticketbox.ConfigurarHorario"
+39-->/home/jfbransou/AndroidStudioProjects/TicketBox/app/src/main/AndroidManifest.xml:35:13-46
+40            android:label="@string/title_activity_configuracoes_horarios"
+40-->/home/jfbransou/AndroidStudioProjects/TicketBox/app/src/main/AndroidManifest.xml:36:13-74
+41            android:parentActivityName="com.tcc.admin.ticketbox.ActivityListaComprovantes"
+41-->/home/jfbransou/AndroidStudioProjects/TicketBox/app/src/main/AndroidManifest.xml:37:13-68
+42            android:theme="@style/AppTheme.NoActionBar" >
+42-->/home/jfbransou/AndroidStudioProjects/TicketBox/app/src/main/AndroidManifest.xml:38:13-56
+43            <meta-data
+43-->/home/jfbransou/AndroidStudioProjects/TicketBox/app/src/main/AndroidManifest.xml:39:13-41:85
+44                android:name="android.support.PARENT_ACTIVITY"
+44-->/home/jfbransou/AndroidStudioProjects/TicketBox/app/src/main/AndroidManifest.xml:40:17-63
+45                android:value="com.tcc.admin.ticketbox.ActivityListaComprovantes" />
+45-->/home/jfbransou/AndroidStudioProjects/TicketBox/app/src/main/AndroidManifest.xml:41:17-82
+46        </activity>
+47
+48        <provider
+48-->/home/jfbransou/AndroidStudioProjects/TicketBox/app/src/main/AndroidManifest.xml:43:9-51:20
+49            android:name="android.support.v4.content.FileProvider"
+49-->/home/jfbransou/AndroidStudioProjects/TicketBox/app/src/main/AndroidManifest.xml:44:13-67
+50            android:authorities="com.tcc.admin.ticketbox"
+50-->/home/jfbransou/AndroidStudioProjects/TicketBox/app/src/main/AndroidManifest.xml:45:13-58
+51            android:exported="false"
+51-->/home/jfbransou/AndroidStudioProjects/TicketBox/app/src/main/AndroidManifest.xml:46:13-37
+52            android:grantUriPermissions="true" >
+52-->/home/jfbransou/AndroidStudioProjects/TicketBox/app/src/main/AndroidManifest.xml:47:13-47
+53            <meta-data
+53-->/home/jfbransou/AndroidStudioProjects/TicketBox/app/src/main/AndroidManifest.xml:48:13-50:52
+54                android:name="android.support.FILE_PROVIDER_PATHS"
+54-->/home/jfbransou/AndroidStudioProjects/TicketBox/app/src/main/AndroidManifest.xml:49:17-67
+55                android:resource="@xml/filepaths" />
+55-->/home/jfbransou/AndroidStudioProjects/TicketBox/app/src/main/AndroidManifest.xml:50:17-50
+56        </provider>
+57    </application>
+58
+59</manifest>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="#00FFEEFF">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            app:popupTheme="@style/AppTheme.PopupOverlay" />
+
+    </android.support.design.widget.AppBarLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:weightSum="1">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Spinner
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:id="@+id/spinner"
+                android:layout_weight="0.50" />
+
+            <Button
+                android:id="@+id/btnHorario"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Escolha o horário"
+                android:onClick="showTimePickerDialog"
+                android:layout_weight="0.50" />
+
+        </LinearLayout>
+
+        <com.prolificinteractive.materialcalendarview.MaterialCalendarView
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/calendarView"
+            android:layout_width="match_parent"
+            android:layout_height="320dp"
+            app:mcv_showOtherDates="all"
+            app:mcv_selectionColor="#00F"
+            />
+
+        <TextView
+            android:text=""
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtQuantidadeDiasSelecionados"
+            android:textAlignment="center" />
+
+        <Button
+            android:text="Salvar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnSalvarHorarios"
+            android:onClick="salvarHorarioComprovante"/>
+    </LinearLayout>
+
+
+</LinearLayout>
